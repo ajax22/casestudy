@@ -2,6 +2,8 @@
 It is simple app to show list of 10 users in card profile format. We can like, edit or delete any user. Additionally I've added a last card to add new user. 
 There is setTimeout is in place to delay the load of api data by 3 seconds just to show loader for a while
 
+I have added basic validations to forms which we can extend further based on requirements.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
