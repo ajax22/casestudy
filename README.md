@@ -4,6 +4,8 @@ There is setTimeout is in place to delay the load of api data by 3 seconds just 
 
 I have added basic validations to forms which we can extend further based on requirements.
 
+Demo Link: https://master--brilliant-lollipop-a367cc.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
