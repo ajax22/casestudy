@@ -1,0 +1,13 @@
+.card-img-top {
+    width: 60%; 
+    margin: 0 auto;
+}
+
+.card-body {
+    background: #fff;
+    text-align: left;
+}
+
+.form-label {
+    font-weight: bold;
+}

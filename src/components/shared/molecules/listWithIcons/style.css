@@ -1,0 +1,8 @@
+.list-group {
+    --bs-list-group-border-color: none;
+}
+
+.list-group-item {
+    padding: 0;
+    color: #777777;
+}
