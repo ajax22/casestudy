@@ -35,9 +35,15 @@ const ApiProvider = ({ children, apiUrl }) => {
   }, [apiUrl]);
 
   useEffect(() => {
-    setTimeout(() => {
+    // this is added intentionally to show loading while the data is fetched
+    // just to add delay, we can remove this setup in actual implementation
+    const timeOut = setTimeout(() => {
       fetchData();
-    }, 5000);
+    }, 3000);
+
+    return () => {
+      clearTimeout(timeOut);
+    };
   }, [fetchData]);
 
   const updateData = (updatedData) => {
